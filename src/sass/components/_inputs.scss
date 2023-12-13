@@ -1,0 +1,22 @@
+//.input {
+//  display: block;
+//  border: 1px solid var(--color-gray-300);
+//  border-radius: var(--space-2);
+//  padding: 0.625rem 0.875rem;
+//  color: var(--color-gray-900);
+//  box-shadow: var(--shadow-xs);
+//  outline: 0;
+//  transition: border-color var(--transition), box-shadow var(--transition);
+//
+//  &:focus {
+//    border-color: var(--color-primary-300);
+//    box-shadow: var(--shadow-focused-primary-100);
+//  }
+//
+//  &::placeholder {
+//    @extend .text-md;
+//    font-weight: var(--text-regular);
+//    color: var(--color-gray-500);
+//  }
+//
+//}

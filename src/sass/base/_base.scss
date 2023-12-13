@@ -1,0 +1,42 @@
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: var(--text-regular);
+  color: var(--color-base-black);
+  background-color: var(--color-primary-light);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+svg {
+  display: inline-block;
+}
+
+img {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+}
