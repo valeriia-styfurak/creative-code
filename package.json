@@ -1,20 +1,20 @@
 {
-  "name": "html-template",
+  "name": "creative-code",
   "version": "1.0.0",
-  "description": "html-template",
-  "homepage": "https://valeriia-styfurak.github.io/html-template",
+  "description": "creative-code",
+  "homepage": "https://valeriia-styfurak.github.io/creative-code",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /html-template/"
+    "build": "parcel build src/*.html --public-url /creative-code/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valeriia-styfurak/html-template"
+    "url": "git+https://github.com/valeriia-styfurak/creative-code"
   },
   "author": "Valeriia Styfurak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/valeriia-styfurak/html-template/issues"
+    "url": "https://github.com/valeriia-styfurak/creative-code/issues"
   },
   "dependencies": {
     "file-loader": "^6.2.0",
