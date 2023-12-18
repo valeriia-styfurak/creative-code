@@ -1,5 +1,6 @@
 .mobile-header {
   position: fixed;
+  z-index: 1;
   width: 100vw;
   padding: 20px 16px 40px 24px;
   background-color: var(--color-light);
@@ -15,14 +16,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 30;
+  z-index: 100;
 }
 
 .mobile-nav-container {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 20;
+  z-index: 90;
   width: 100vw;
   height: 100vh;
   padding: 125px 16px 40px 16px;
