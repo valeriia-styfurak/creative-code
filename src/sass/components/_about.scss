@@ -109,6 +109,11 @@
   font-size: var(--space-6);
   font-weight: var(--text-medium);
   letter-spacing: 0.0156rem;
+
+  @media screen and (min-width: $screen-md-min) {
+    font-size: var(--space-5);
+    left: 2rem;
+  }
 }
 
 .about-item h3 {
