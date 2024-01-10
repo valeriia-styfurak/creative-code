@@ -1,44 +1,46 @@
 <div class="modal-overlay closed" id="modal-overlay"></div>
 
 <div class="modal closed" id="modal">
-	<button class="modal-close-button reset-button" id="close-button" type="button">
-		<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-			<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-			      d="M18 6 6 18M6 6l12 12"/>
-		</svg>
-	</button>
+  <button class="modal-close-button reset-button" id="close-button" type="button">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M18 6 6 18M6 6l12 12"/>
+    </svg>
+  </button>
 
-	<div class="modal-content">
-		<h2 class="modal-title text-uppercase">Discuss the project</h2>
-		<p class="modal-subtitle">Great results start by filling out this form</p>
-		<form class="form">
-			<div class="form-group">
-				<input
-					id="form-name"
-					class="form-input"
-					type="text"
-					name="name"
-					pattern="^[A-Za-zА\s]+$"
-					required=""
-					placeholder=" "
-				/>
-				<label for="form-name" class="form-label">Your name</label>
-			</div>
-			<div class="form-group">
-				<input
-					id="form-number"
-					class="form-input"
-					type="phone"
-					name="phone"
-					pattern="[0-9]{1,}"
-					required=""
-					placeholder=" "
-				/>
-				<label for="form-number" class="form-label">Phone</label>
-			</div>
-					<button class="mx-auto d-block modal-send-button" type="submit">
-						Send
-					</button>
-		</form>
-	</div>
+  <div class="modal-content">
+    <h2 class="modal-title text-uppercase">Discuss the project</h2>
+    <p class="modal-subtitle">Great results start by filling out this form</p>
+    <form class="form">
+      <div class="form-group">
+        <input
+          id="form-name"
+          class="form-input"
+          type="text"
+          name="name"
+          pattern="^[A-Za-zА\s]+$"
+          required=""
+          placeholder=" "
+        />
+        <label for="form-name" class="form-label">Your name</label>
+      </div>
+
+      <div class="form-group">
+        <input
+          id="form-number"
+          class="form-input"
+          type="phone"
+          name="phone"
+          pattern="[0-9]{1,}"
+          required=""
+          placeholder=" "
+        />
+        <label for="form-number" class="form-label">Phone</label>
+      </div>
+
+      <button class="mx-auto d-block modal-send-button" type="submit">
+        Send
+      </button>
+    </form>
+  </div>
 </div>

@@ -12,5 +12,3 @@
     body.classList.remove('overflow-hidden', 'is-open');
   });
 })();
-
-
