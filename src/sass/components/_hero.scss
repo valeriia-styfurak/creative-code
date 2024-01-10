@@ -19,22 +19,21 @@
   gap: 2vw;
   align-items: center;
   
-  @media screen and (min-width: $screen-md-min) {
-    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+  @media screen and (min-width: $screen-lg-min) {
+    gap: 14vw;
   }
 }
 
 .hero-text-wrapper {
   min-width: 280px;
   position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   z-index: 30;
   text-align: center;
   
   @media screen and (min-width: $screen-md-min) {
-    position: relative;
-
     font-size: 3.75rem;
   }
 }
@@ -59,14 +58,14 @@
 
 .hero-title span {
   display: block;
-  color: var(--color-title-text);
+  color: var(--color-main-text);
 }
 
 .hero-subtitle {
   font-family: var(--font-family-Oswald);
   font-size: var(--space-4);
   font-weight: var(--text-light);
-  color: var(--color-title-text);
+  color: var(--color-main-text);
   letter-spacing: 0.3em;
 }
 
@@ -79,7 +78,6 @@
   @media screen and (min-width: $screen-md-min) {
     height: 100vh;;
   }
-  
   
 }
 
@@ -102,6 +100,10 @@
     left: var(--space-24);
   }
   
+  @media screen and (min-width: $screen-lg-min) {
+    left: 17rem;
+  }
+  
 }
 
 .left-column-down {
@@ -109,5 +111,9 @@
   
   @media screen and (min-width: $screen-md-min) {
     left: -6rem;
+  }
+  
+  @media screen and (min-width: $screen-lg-min) {
+    left: -17rem;
   }
 }

@@ -1,10 +1,9 @@
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-family-Montserrat);
   font-size: 16px;
   font-weight: var(--text-regular);
   color: var(--color-base-black);
   background-color: var(--color-primary-light);
-
 }
 
 h1,
@@ -17,9 +16,6 @@ ul,
 p {
   margin: 0;
   padding: 0;
-}
-
-p {
 }
 
 a {
