@@ -42,7 +42,7 @@
   font-size: var(--font-size-text-xl);
   font-weight: var(--text-medium);
   text-transform: uppercase;
-
+  
   &::after {
     content: '';
     position: absolute;
@@ -50,7 +50,7 @@
     height: 1px;
     bottom: -8px;
     left: 0;
-    background-color: var(--color-title-text);
+    background-color: var(--color-main-text);
     transition: width .5s ease;
   }
 
