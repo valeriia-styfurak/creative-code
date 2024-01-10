@@ -96,6 +96,10 @@
   border-radius: 0;
   background-color: transparent;
   outline: none;
+
+  &::placeholder {
+    color: transparent;
+  }
 }
 
 .form-label {
