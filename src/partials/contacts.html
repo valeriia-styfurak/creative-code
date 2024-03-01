@@ -1,0 +1,84 @@
+<section class="contacts-wrapper">
+
+    <div class="contacts-text">
+      <h2 class="text-uppercase">Let’s discuss your idea</h2>
+      <a href="https://t.me/margo_wdesign" target="_blank">https://t.me/margo_wdesign</a>
+    </div>
+
+    <div class="contacts-form-wrapper">
+      <form class="contacts-form mx-auto">
+        <fieldset class="contacts-form-block">
+          <legend class="contacts-form-legend">Choose which website you want</legend>
+          <div class="contacts-inputs-wrapper">
+            <div class="contacts-form-radio">
+              <input type="radio" id="landing-page" name="website">
+              <label for="landing-page">Landing Page</label>
+            </div>
+            <div class="contacts-form-radio">
+              <input type="radio" id="e-commerce-website" name="website" value="e-commerce-website">
+              <label for="e-commerce-website">E-Commerce Website</label>
+            </div>
+            <div class="contacts-form-radio">
+              <input type="radio" id="business-website" name="website" value="business-website">
+              <label for="business-website">Business Website</label>
+            </div>
+            <div class="contacts-form-radio">
+              <input type="radio" id="portfolio" name="website" value="portfolio">
+              <label for="portfolio">Portfolio</label>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <form class="contacts-form mx-auto">
+        <fieldset class="contacts-form-block">
+          <legend class="contacts-form-legend">Choose which options you want</legend>
+          <div class="contacts-inputs-wrapper">
+            <div class="contacts-form-radio">
+              <input type="radio" id="ui-ux-design" name="website" value="ui-ux-design">
+              <label for="ui-ux-design">UI/UX Design</label>
+            </div>
+            <div class="contacts-form-radio">
+              <input type="radio" id="development" name="website" value="development">
+              <label for="development">Development</label>
+            </div>
+            <div class="contacts-form-radio">
+              <input type="radio" id="all" name="website" value="all">
+              <label for="all">All</label>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <form class="form contacts-form-inputs">
+        <div class="form-group">
+          <input
+            id="form-name"
+            class="form-input border-bottom-black"
+            type="text"
+            name="name"
+            pattern="^[A-Za-zА\s]+$"
+            required=""
+            placeholder="."
+          />
+          <label for="form-name" class="form-label color-black">Your name</label>
+        </div>
+        <div class="form-group">
+          <input
+            id="form-number"
+            class="form-input border-bottom-black"
+            type="phone"
+            name="phone"
+            pattern="[0-9]{1,}"
+            required=""
+            placeholder="."
+          />
+          <label for="form-number" class="form-label color-black">Phone</label>
+        </div>
+        <button class="mx-auto d-block modal-send-button contacts-form-button" type="submit">
+          Send
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
