@@ -73,7 +73,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: var(--space-24);
+  gap: 20rem;
 
   @media screen and (min-width: $screen-md-min) {
     height: 100vh;;
@@ -85,14 +85,33 @@
 .right-column-up {
   position: relative;
   z-index: 20;
+  animation: moveUp 40s linear infinite;
+}
+
+@keyframes moveUp {
+  0%, 100% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
 }
 
 .left-column-down,
 .right-column-down {
   position: relative;
   z-index: 10;
+  animation: moveDown 40s linear infinite;
 }
 
+@keyframes moveDown {
+  0%, 100% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+}
 .right-column-up {
   left: var(--space-8);
 
