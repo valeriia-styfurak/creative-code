@@ -1,2 +1,0 @@
-(()=>{const e=document.querySelector("[data-open-menu-button]"),o=document.querySelector("[data-close-menu-button]"),t=(document.querySelector("[data-mobile-menu]"),document.querySelector("body"));e.addEventListener("click",(()=>{t.classList.add("overflow-hidden","is-open")})),o.addEventListener("click",(()=>{t.classList.remove("overflow-hidden","is-open")}))})();
-//# sourceMappingURL=index.7a07a793.js.map
