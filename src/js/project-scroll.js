@@ -15,12 +15,13 @@ function updateImagesVisibility() {
   projectsList.forEach((item, index) => {
     if (isElementInViewport(item)) {
       projectImages.forEach((img, imgIndex) => {
-        img.style.opacity = imgIndex === index ? '1' : '0';
+        img.style.opacity = '0';
       });
+      projectImages[index].style.opacity = '1';
     }
   });
 }
 
 window.addEventListener('scroll', updateImagesVisibility);
-
 updateImagesVisibility();
+
