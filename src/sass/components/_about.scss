@@ -97,7 +97,7 @@
 .about-item .about-info.is-open {
   height: 7rem;
 
-  @media screen and (min-width: $screen-md-min) {
+  @media screen and (min-width: $screen-lg-min) {
     height: 6rem;
   }
 }
