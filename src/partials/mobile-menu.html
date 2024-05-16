@@ -4,30 +4,11 @@
       <img src="./images/logo.webp" width="142" height="32" alt="Logo"/>
     </a>
     <button
-      class="burger-menu reset-button"
-      type="button"
-      aria-label="Open menu"
-      data-open-menu-button
-    >
-      <img
-        src="./images/icon-mobile-menu.svg"
-        width="24"
-        height="24"
-        alt="Open menu"
-      />
-    </button>
-    <button
-      class="burger-menu-cross reset-button"
-      type="button"
-      aria-label="Close menu"
-      data-close-menu-button
-    >
-      <img
-        src="./images/icon-mobile-menu-cross.svg"
-        width="24"
-        height="24"
-        alt="Close menu"
-      />
+      class="button reset-button" id="burger-button" type="button">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
   </div>
   <div class="mobile-nav-container" data-mobile-menu>
@@ -36,8 +17,8 @@
         <li>
           <a class="mobile-nav-item mobile-nav-link" href="#projects">Projects</a>
         </li>
-        <li class="mobile-nav-item">
-          <button type="button" class="reset-button mobile-nav-button open-button">Contact me</button>
+        <li class="mobile-nav-item open-form-button">
+          <button type="button" class="reset-button mobile-nav-button">Contact me</a></button>
         </li>
       </ul>
     </nav>

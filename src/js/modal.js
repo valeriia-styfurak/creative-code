@@ -1,28 +1,19 @@
 (() => {
-const body = document.querySelector('body');
-const modal = document.querySelector('#modal');
-const modalOverlay = document.querySelector('#modal-overlay');
-const closeButton = document.querySelector('#close-button');
-const openButtons = document.querySelectorAll('.open-button');
+  const closeFormButton = document.querySelector('#close-button');
+  const openFormButtons = document.querySelectorAll('.open-form-button');
 
-  openButtons.forEach(button => {
+  openFormButtons.forEach(button => {
     button.addEventListener('click', () => {
-      modal.classList.remove('closed');
-      modalOverlay.classList.remove('closed');
-      body.classList.add('overflow-hidden');
+      document.body.classList.add('modal-open');
     });
   });
 
-closeButton.addEventListener('click', () => {
-  modal.classList.add('closed');
-  modalOverlay.classList.add('closed');
-  body.classList.remove('overflow-hidden');
-});
+  closeFormButton.addEventListener('click', () => {
+    document.body.classList.remove('modal-open');
+  });
 
-  modalOverlay.addEventListener('click', () => {
-    modal.classList.add('closed');
-    modalOverlay.classList.add('closed');
-    body.classList.remove('overflow-hidden');
+  document.querySelector('#modal-overlay').addEventListener('click', () => {
+    document.body.classList.remove('modal-open');
   });
 })();
 
