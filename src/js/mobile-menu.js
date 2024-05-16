@@ -1,10 +1,9 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const body = document.querySelector('body');
+document.addEventListener('DOMContentLoaded', function () {
   const burgerMenuButton = document.querySelectorAll('#burger-button');
 
-  burgerMenuButton.forEach(function(burgerMenuButton) {
+  burgerMenuButton.forEach(function (burgerMenuButton) {
     burgerMenuButton.addEventListener('click', () => {
-      body.classList.toggle('is-open');
+      document.body.classList.toggle('mobile-menu-open');
     });
   });
 });
