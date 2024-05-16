@@ -133,6 +133,7 @@
 .about-info {
   height: 0;
   padding: 0.625rem var(--space-5) var(--space-3) 1.875rem;
+  font-size: 0.875rem;
   color: var(--color-main-text);
   opacity: 0;
   visibility: hidden;
@@ -146,6 +147,10 @@
     left: 0;
     bottom: 0;
     background: url(../images/about-border-bottom.svg) no-repeat left bottom/cover;
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    font-size: var(--space-4);
   }
 }
 
