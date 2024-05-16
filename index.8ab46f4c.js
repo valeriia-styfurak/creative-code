@@ -1,0 +1,2 @@
+(()=>{const e=document.querySelector("#close-button");document.querySelectorAll(".open-form-button").forEach((e=>{e.addEventListener("click",(()=>{document.body.classList.add("modal-open")}))})),e.addEventListener("click",(()=>{document.body.classList.remove("modal-open")})),document.querySelector("#modal-overlay").addEventListener("click",(()=>{document.body.classList.remove("modal-open")}))})();
+//# sourceMappingURL=index.8ab46f4c.js.map
